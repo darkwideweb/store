@@ -1,0 +1,44 @@
+.login {
+    padding: 20px;
+  }
+  
+  .login h2 {
+    margin-bottom: 20px;
+  }
+  
+  .login form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .login form button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login form button:hover {
+    background-color: #333;
+  }
+  .bonus-message {
+    padding: 15px;
+    background-color: #0eb50b;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .bonus-message p {
+    margin: 0;
+    color: #333;
+  }

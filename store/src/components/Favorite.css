@@ -1,0 +1,55 @@
+.favorite {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.favorite h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.favorite ul {
+  list-style: none;
+  padding: 0;
+}
+
+.favorite-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.favorite-item:hover {
+  background-color: #f1f1f1;
+}
+
+.favorite-item-details {
+  flex-grow: 1;
+}
+
+.favorite-item-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.favorite-item-actions button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.favorite-item-actions button:hover {
+  background-color: #333;
+}
