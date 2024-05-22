@@ -4,16 +4,16 @@ import './Login.css';
 function Login({ onLogin }) {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
-  const [isLoggedIn, setIsLoggedIn] = useState(false); // Добавляем состояние для отслеживания успешного входа
-  const [bonusMessageVisible, setBonusMessageVisible] = useState(false); // Состояние для отображения сообщения о бонусах и скидке
+  const [isLoggedIn, setIsLoggedIn] = useState(false); 
+  const [bonusMessageVisible, setBonusMessageVisible] = useState(false); 
 
   const handleSubmit = (e) => {
     e.preventDefault();
     
-    // Мы просто считаем, что пользователь успешно аутентифицирован, если поля не пустые
+  
     if (username.trim() !== '' && password.trim() !== '') {
       setIsLoggedIn(true);
-      setBonusMessageVisible(true); // Показываем сообщение о бонусах и скидке
+      setBonusMessageVisible(true); 
       onLogin();
     }
   };
